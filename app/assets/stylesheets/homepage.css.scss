@@ -1,0 +1,70 @@
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+.img-container {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: 2px solid #4fc3f7;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 800px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section {
+  width: 100%;
+  position: absolute;
+  top: 10%;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container {
+    min-height: 600px;
+  }
+  
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  .parallax-container {
+    min-height: 500px;
+  }
+  
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.black-bg {
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 1em;
+  padding: 2em;
+}

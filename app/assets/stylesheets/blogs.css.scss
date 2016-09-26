@@ -1,0 +1,45 @@
+// Place all the styles related to the Blogs controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.card a {
+  color: white;
+}
+
+.blog-title {
+  color: #ff9800;
+}
+
+code {
+  color: #b36a00;
+}
+
+pre {
+  background-color: #eaeaea;
+  border-radius: 5px;
+  padding: 1em;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.blog-post {
+  ol li {
+    font-size: inherit !important;
+    padding-bottom: 1.5em !important;
+  }
+  h3 {
+    text-align: center;
+    color: #03a9f4;
+  }
+}
+
+.blog-post-bg {
+  background-color: #f6f6f6;
+  padding: 0em 2em 2em 2em !important;
+}
+
+.title-text {
+  font-size: 0.7em;
+}

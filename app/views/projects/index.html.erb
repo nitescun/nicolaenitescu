@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="section">
+
+    <!--   Icon Section   -->
+    <div class="row">
+      <div class="col s12">
+        <div class="icon-block">
+          
+          <!--Header portfolio-->
+          <%= render 'header' %>
+          
+          <!-- Filter project category buttons   -->
+          <%= render 'filter_projects' %>
+          
+          <!-- Projects -->
+          <% @projects.each do |project| %>
+            <hr/>
+            <br/>
+            <%= render 'project', project: project %>
+          <% end %>
+
+          <%= render 'filter_projects' %>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

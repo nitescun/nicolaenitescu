@@ -1,0 +1,27 @@
+<div class="col s12 m6">
+  <div class="card orange">
+    <div class="card-image waves-effect waves-block waves-light">
+      <%= image_tag(image, class: "activator") %>
+    </div>
+    <div class="card-content white-text">
+      <span class="card-title activator">
+        <%= location %><i class="fa fa-ellipsis-v right"></i>
+      </span>
+      <p><%= years %></p>
+    </div>
+    <div class="card-reveal light-blue">
+      <span class="card-title white-text">
+        <%= location %><i class="fa fa-times-circle right"></i>
+      </span>
+      <p class="white-text">
+        <%= para1 %>
+      </p>
+      <p class="white-text">
+        <%= para2 %>
+      </p>
+      <p class="white-text">
+        <%= para3.html_safe %>
+      </p>
+    </div>
+  </div>
+</div>

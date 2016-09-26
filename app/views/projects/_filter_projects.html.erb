@@ -1,0 +1,10 @@
+<div class="row center">
+  <% if params[:project_type] %>
+    <%= link_to "View All Projects", projects_path, class: "orange-text text-darken-2" %>
+    <br /><br />
+  <% end %>
+
+  <%= link_to "JavaScript", projects_path(project_type: 'JavaScript') %>
+  | <%= link_to "Ruby on Rails", projects_path(project_type: 'Ruby on Rails') %>
+  | <%= link_to "Unity3D Games", projects_path(project_type: 'Unity3D') %>
+</div>

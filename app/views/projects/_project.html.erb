@@ -1,0 +1,38 @@
+<div class="row">
+  <div class="col s12">
+    <div class="col s12 l6 center">
+
+      <a href="<%= project.live_link %>"><h2 class="project-header blue-text"><%= project.title %></h2></a>
+      <p class="technology orange-text">(<span class="grey-text text-darken-3"><%= project.category %></span>)</p>
+
+      <br/>
+
+      <ul class="collapsible left-align" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header orange-text"><i class="fa fa-rocket grey-text text-darken-3" aria-hidden="true"></i> Launch Date</div>
+          <div class="collapsible-body grey darken-3 white-text"><p><%= project.launched.strftime('%B, %Y') %></p></div>
+        </li>
+        <li>
+          <div class="collapsible-header orange-text"><i class="fa fa-info-circle grey-text text-darken-3" aria-hidden="true"></i> Description</div>
+          <div class="collapsible-body grey darken-3 white-text"><p><%= project.description %></p></div>
+        </li>
+        <li>
+          <div class="collapsible-header orange-text"><i class="fa fa-bars grey-text text-darken-3" aria-hidden="true"></i> Details</div>
+          <div class="collapsible-body grey darken-3 white-text">
+            <% project.points.each do |point| %>
+              <p><%= point.body %></p>
+            <% end %>
+          </div>
+        </li>
+      </ul>
+
+      <br/>
+
+    </div>
+
+    <div class="col s12 l6">
+      <%= link_to image_tag(project.image, class: "responsive-img"), project.live_link, target: "_blank" %>
+      <p class="flow-text center"><i class="fa fa-github black-text"></i> <%= link_to "GitHub Repository", project.git_link, class: "blue-text" %></p>
+    </div>
+  </div>
+</div>
