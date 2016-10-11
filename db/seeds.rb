@@ -243,12 +243,12 @@ filosofize.points.create!(body: "Created db seeds with Star Wars faker data.")
 
 # Best Friend Tales
 bftales = Project.create!(
-  title: "Best Friend Tales", 
+  title: "Best Friend Tales",
   description: "Find your new best friend, adopt them from local shelters, and post about their new story.",
-  git_link: "https://github.com/kelsonic/Best-Friend-Tales", 
-  live_link: "http://bftales.com/", 
-  image: "bftales.jpg", 
-  launched: "2016-05-22", 
+  git_link: "https://github.com/kelsonic/Best-Friend-Tales",
+  live_link: "http://bftales.com/",
+  image: "bftales.jpg",
+  launched: "2016-05-22",
   category: "Sinatra, PostgreSQL"
 )
 
@@ -369,36 +369,6 @@ Skill.create!(
 )
 
 Skill.create!(
-  skill: "Jade",
-  rating: 4,
-  skill_type: "Languages"
-)
-
-Skill.create!(
-  skill: "Handlebars",
-  rating: 4,
-  skill_type: "Languages"
-)
-
-Skill.create!(
-  skill: "HAML",
-  rating: 4,
-  skill_type: "Languages"
-)
-
-Skill.create!(
-  skill: "LESS",
-  rating: 5,
-  skill_type: "Languages"
-)
-
-Skill.create!(
-  skill: "SASS",
-  rating: 4,
-  skill_type: "Languages"
-)
-
-Skill.create!(
   skill: "HTML5",
   rating: 5,
   skill_type: "Languages"
@@ -426,38 +396,14 @@ Skill.create!(
 )
 
 Skill.create!(
-  skill: "Express.js",
-  rating: 5,
-  skill_type: "Frameworks"
-)
-
-Skill.create!(
   skill: "Node.js",
   rating: 5,
   skill_type: "Frameworks"
 )
 
 Skill.create!(
-  skill: "Materialize",
+  skill: "React Native.js",
   rating: 5,
-  skill_type: "Frameworks"
-)
-
-Skill.create!(
-  skill: "Bootstrap",
-  rating: 4,
-  skill_type: "Frameworks"
-)
-
-Skill.create!(
-  skill: "React.js",
-  rating: 5,
-  skill_type: "Frameworks"
-)
-
-Skill.create!(
-  skill: "Angular2",
-  rating: 3,
   skill_type: "Frameworks"
 )
 
@@ -476,11 +422,6 @@ Skill.create!(
   skill_type: "Libraries"
 )
 
-Skill.create!(
-  skill: "Deep Learning",
-  rating: 4,
-  skill_type: "Libraries"
-)
 
 Skill.create!(
   skill: "REST APIs",
@@ -510,12 +451,6 @@ Skill.create!(
   skill_type: "Databases"
 )
 
-Skill.create!(
-  skill: "MongoDB",
-  rating: 5,
-  skill_type: "Databases"
-)
-
 
 # Other
 
@@ -540,12 +475,6 @@ Skill.create!(
 Skill.create!(
   skill: "MVC",
   rating: 5,
-  skill_type: "Other Skills"
-)
-
-Skill.create!(
-  skill: "AWS",
-  rating: 4,
   skill_type: "Other Skills"
 )
 
