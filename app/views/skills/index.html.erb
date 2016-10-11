@@ -1,81 +1,98 @@
 <section class="blog-font">
-  
+
   <!--Intro Card-->
   <%= render 'intro_card' %>
-  
+
   <!--Cards-->
   <!-- Start Row -->
   <div class="row">
-    
+
     <!--Colorado-->
     <%= render 'location',
       image: 'colorado.jpg',
-      location: 'Colorado',
-      years: '1993-2011',
-      para1: "I was born and raised in Colorado. In high school, when I wasn't skiing 
-            the slopes of Vail or Winter Park, I was either studying for my 7 AP 
-            classes or working 35+ hours per week at a local hospital.",
-      para2: "While I loved the nature in Colorado, I deeply wanted to explore 
-            and learn about the various perspectives in the world - an education 
-            that would require learning outside a classroom.",
-      para3: "I applied only to one university (an American university in Rome, Italy) 
-            and was accepted. So I packed my bags and got ready to leave for the 
-            other side of the planet."
+      location: 'Romania',
+      years: '',
+      para1: "I am Nick. I was born and raised in Romania. I spent all my
+            vacations reading and writing books, hiking in the Carpathians,
+            playing soccer and tennis. At 14 I discovered the computers and I
+            started  coding so that I can produce my own games.",
+      para2: "I have always been interested in exploring organizational systems
+            and perspectives available worldwide and been appreciative of
+            education beyond the classroom.",
+      para3: "One day, I have been offered an assignment in the US. I packed my
+            bags right away and got ready to face the new experience heads-on."
     %>
-  
+
     <!--Italy-->
     <%= render 'location',
       image: 'italy.jpg',
-      location: 'Italy',
-      years: '2011-2015',
-      para1: "I moved to Italy right after high school where I attended an American 
-            university in Rome. While I traveled all around Italy and 10+ other 
-            countries in Europe during my 4 years at the university, my studies 
-            were rigorous as I took enough courses to obtain both a Bachelor's of 
-            Arts in International Affairs and International Business.",
-      para2: "While in Italy, I taught myself Italian when socializing with friends 
-            there. I also met my Dutch wife in the process, so I decided to learn 
-            Dutch as well.",
-      para3: "When I wasn't studying, I created How2Bee.com with my friend from Kenya. 
-            Despite the website getting over 12,000 visitors in less than 3 weeks, 
-            WordPress proved very frustrating to customize, which pushed me to reprogram the website using Ruby on Rails."
+      location: 'US',
+      years: '',
+      para1: "I moved to Sunnyvale, California and worked with integrated
+            circuits for some time, building programs that automatically design
+            them. Work left aside, I travelled a lot, especially during the
+            weekends. This way I discovered many beautiful places in California
+            and in the neighboring states. Nature has always helped me focus and
+             shape the ideas that I work on at different times.",
+      para2: "Also, I have built  my first personal computer in Sunnyvale.
+            Because I enjoyed the experience and totally loved the final
+            product, I kept this habit over the years and I continue building my
+             own machines today. Seldom buy.",
+      para3: "While not programming for work, I took care of my own projects.
+            In college the ANN concept was introduced to us and since then the
+            subject became a personal passion and captures a lot of my personal
+            time. Robots make for a material presence cross-industry today and
+            they have quickly turned into the backbone of our economy. Moreover,
+             progress is still happening and not before long, robots and AI
+             systems will completely change the world as we know it."
     %>
-    
+
   <!--End Row-->
   </div>
-  
-  
+
+
   <div class="row">
-  
+
     <!--Netherlands-->
     <%= render 'location',
       image: 'netherlands.jpg',
-      location: 'Netherlands',
-      years: '2015-2016',
-      para1: "After I graduated from the American university in Rome, my wife and I 
-            moved to the Netherlands. There I worked as the Marketing Manager of a 
-            tech startup that teaches kids how to code.",
-      para2: "As we waited for my wife's US Visa, I became interested in programming. 
-            At one point, my wife and I both started a Ruby on Rails online bootcamp - 
-            and we were immediately hooked.",
-      para3: "In less than 1.5 months, we created 8 Rails projects and 4 Unity video games. 
-            We fell in love with coding. So I decided to refine my skills at Dev Bootcamp 
-            in San Francisco."
+      location: 'Kings Canyon',
+      years: '',
+      para1: "I discovered Kings Canyon National Park travelling around, in one
+            of the many weekend outings. It immediately became
+            my favorite place to camp.",
+      para2: "At work I soon started to develop programs used in testing
+            intergrated circuits. Always a fan of automation and of making things
+             faster and less prone to error, with a minimum of effort, my
+            coleagues joked on my using of automation everywhere.",
+      para3: "I started researching the way that the human brain functions and
+              after a while I got the idea of the program I am working on today.
+             My AI application should be capable of learning by reading
+             information on its own and by even freely talking with people, with
+              a minimum of resources."
     %>
-  
+
     <!--San Francisco-->
     <%= render 'location',
       image: 'sf.jpg',
       location: 'San Francisco',
-      years: '2016-Present',
-      para1: "While studying at Dev Bootcamp, there wasn't more than 10 hours that went by 
-            (including the weekends) that I wasn't coding. I pushed myself to build at least 
-            one project per week, and it paid off.",
-      para2: "At the end of the bootcamp, I had built over 20+ projects, most of which use different 
-            technologies that I had to learn in only a couple of days.",
-      para3: "For the final project, I was the team lead to build a 
-            <a href='http://minidriver.herokuapp.com' class='text-lighten-2 orange-text'> self-driving RC car</a> 
-            using recurrent neural networks, Raspberry Pis, Python, and many machine learning libraries."
+      years: '',
+      para1: "A big wish was to expand my knowledge so that I can come even
+            closer to coding and developing applications so I slowly switched
+            gears and this is how I started to work as a software QA engineer
+            first. But that was obviously not enough for my goal so I ended up
+            working though the Dev Bootcamp program in San Francisco. It turned
+            out to be a good thing to do as it helped me to fill in a few gaps.",
+      para2: "Dev Bootcamp meant coding around the clock, often 7 days a week.
+            I pushed myself to accomplish at least one project per week, and it
+            paid off. By the end of the program, I had built 20+ projects, most
+            of them using different technologies, that I had to learn in only a
+            couple of days or overnight.",
+      para3: "The final project, that I built together with three other
+            colleagues, is called Simul. Simul is an application designed to help
+             the refugees. It allows them to share personal stories, find
+             resources that they need, and get in contact with people that may
+             and want to help them."
     %>
 
   <!-- End Row -->
@@ -96,5 +113,5 @@
   <div class="row center">
     <%= link_to "View Projects", projects_path, class: "btn btn-large light-green waves-effect waves-orange" %>
   </div>
-  
+
 </section>
