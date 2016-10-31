@@ -5,9 +5,9 @@
 # Simul
 simul = Project.create!(
   title: "Simul",
-  description: "An application helping refugees to share their stories, find jobs and the resources they need. Backend built with Ruby on Rails, frontend in React Native.",
+  description: "An application helping refugees to share their stories, find jobs and the resources they need.",
   git_link: "https://github.com/sf-red-pandas-2016/simul-react-native",
-  live_link: "",
+  live_link: "https://github.com/sf-red-pandas-2016/simul-react-native",
   image: "SIMUL.jpg",
   launched: "2016-09-21",
   category: "Ruby on Rails, React Native, PostgreSQL"
@@ -25,7 +25,7 @@ iarena = Project.create!(
   title: "Island Arena",
   description: "A car Arena game in Unity3D. Try to reach the enemy base.",
   git_link: "https://github.com/nitescun/Iarena",
-  live_link: "",
+  live_link: "https://github.com/nitescun/Iarena",
   image: "iarena.jpg",
   launched: "2016-10-30",
   category: "Unity Video Game"
@@ -46,10 +46,10 @@ easinvest = Project.create!(
   title: "Easinvest",
   description: "An application helping people who have no experience with the stock market to make investments.",
   git_link: "https://github.com/nitescun/Investor",
-  live_link: "",
+  live_link: "https://github.com/nitescun/Investor",
   image: "Easinvest.jpg",
-  launched: "2016 Aug 18",
-  category: "Sinatra, SQLite3"
+  launched: "2016-08-18",
+  category: "Sinatra"
 )
 
 easinvest.points.create!(body: "The project was built in a week.")
