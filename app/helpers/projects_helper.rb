@@ -1,8 +1,8 @@
 module ProjectsHelper
 
   def assign_projects(project_type)
-    if project_type == 'JavaScript'
-      @projects = Project.where("category LIKE ?", '%js%').reverse
+    if project_type == 'Sinatra'
+      @projects = Project.where("category LIKE ?", '%Sinatra%').reverse
 
     elsif project_type == 'Ruby on Rails'
       @projects = Project.where("category LIKE ?", '%Rails%').reverse
